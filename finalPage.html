@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formStyle.css">
+    <script src="form.js"></script>
+    <title>Final Page</title>
+    <style>
+        body{
+            background: lawngreen;
+        }
+    .final {
+     position: relative;
+      display: flex;
+      width: 200px;
+      height: 80px;
+      border: 1px solid blue;
+      border-top-color: 2px #6fb07f;
+      background-color: slategray;
+      color: white;
+  }
+  .final{
+      left: 50px;
+      top: 50px;
+      align-items: center;
+      justify-content: center; 
+  }
+  .final:hover{
+      animation: rotate 0.7s ease-in-out both ;
+      animation-iteration-count: infinite;
+  }
+  @keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(6deg);
+    }
+    50%{
+        transform: rotate(-6deg);
+    }
+    75%{
+        transform: rotate(1deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="final" align="center">
+        <h1>Registration Successful</h1>
+    </div>
+</body>
+</html>
